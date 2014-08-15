@@ -16,7 +16,7 @@ from ubuntu:trusty
 
 maintainer Dockerfiles
 
-run echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
+run echo "deb http://archive.ubuntu.com/ubuntu trusty main universe" > /etc/apt/sources.list
 run apt-get update
 run apt-get upgrade -y
 run apt-get update
