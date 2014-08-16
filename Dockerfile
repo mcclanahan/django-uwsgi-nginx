@@ -16,10 +16,10 @@ from ubuntu:trusty
 
 maintainer Dockerfiles
 
-run echo "deb http://archive.ubuntu.com/ubuntu trusty main universe" > /etc/apt/sources.list
+#run echo "deb http://archive.ubuntu.com/ubuntu trusty main universe" > /etc/apt/sources.list
 run apt-get update
-run apt-get upgrade -y
-run apt-get update
+#run apt-get upgrade -y
+#run apt-get update
 run apt-get install -y build-essential
 run apt-get install -y python python-dev python-setuptools
 run apt-get install -y nginx supervisor
