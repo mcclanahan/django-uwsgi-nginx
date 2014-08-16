@@ -31,7 +31,7 @@ run pip install uwsgi
 # install nginx
 run apt-get install -y python-software-properties
 run apt-get update
-RUN add-apt-repository -y ppa:nginx/stable
+run add-apt-repository -y ppa:nginx/stable
 run apt-get install -y sqlite3
 
 # install our code
